@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A component doodle in react playing with SVG animations, box shadow and blur filters, as well as useState and useEffect hooks from React.
+
 
 ## Available Scripts
 
