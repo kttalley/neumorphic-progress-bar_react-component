@@ -1,0 +1,35 @@
+
+
+.circle {
+    height:300px;
+    width: 300px;
+    position: absolute;
+    bottom: 19.75%;
+    margin-left:-7%;
+    align-items: center;
+    justify-content: center;
+    stroke-width: 38px;
+    overflow: visible;
+    fill: none;
+    stroke: rgba(0, 0, 0, 0.1);
+    filter:blur(6px);
+    stroke-dasharray: 565px;
+    /* stroke-dashoffset: 0px; */
+    /* animation-name: progress;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; */
+    animation-duration: 1.2s;
+    animation-name: progression;
+}
+
+  
+  @keyframes progression {
+    from {
+        stroke-dashoffset: 565px;
+    }
+  
+    to {
+        stroke-dashoffset: 0;
+    }
+  }
